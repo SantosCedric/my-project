@@ -114,3 +114,9 @@ If two objects are equal, they must produce the same hash code. This is mandator
 equals: Must be reflexive (x = x), symmetric (x = y \iff y = x), transitive (x = y prodscal y = z \implies x = z), consistent, and return false for null.
 hashCode: Must return the same integer if the object remains unchanged, and must return the same integer for two objects that are equal according to equals.
 
+
+Note perso:
+
+
+On exécute avant tout le bloc parent, puis le bloc enfant pour les statics.
+Les constructeurs influent aussi en dernier.
